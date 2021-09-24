@@ -1,6 +1,6 @@
 from instapy import InstaPy
 #login
-session = InstaPy(username = '', password = '', headless_browser = False)
+session = InstaPy(username = '#InstagramUserName', password = '#InstagramPaswword', headless_browser = False)
 session.login()
 
 
